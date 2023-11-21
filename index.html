@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="user-form" style="max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+        <label class="block mb-2 text-sm text-gray-600" for="name">Name</label>
+        <input class="w-full px-3 py-2 mb-4 border rounded-md" type="text" id="name" name="name">
+      
+        <label class="block mb-2 text-sm text-gray-600" for="email">Email</label>
+        <input class="w-full px-3 py-2 mb-4 border rounded-md" type="email" id="email" name="email">
+      
+        <label class="block mb-2 text-sm text-gray-600" for="password">Password</label>
+        <input class="w-full px-3 py-2 mb-4 border rounded-md" type="password" id="password" name="password">
+      
+        <label class="block mb-2 text-sm text-gray-600" for="dob">Date of Birth</label>
+        <input class="w-full px-3 py-2 mb-4 border rounded-md" type="date" id="dob" name="dob">
+      
+        <div class="mb-4">
+          <input class="mr-2" type="checkbox" id="acceptTerms" name="acceptTerms">
+          <label class="text-sm text-gray-600" for="acceptTerms">Accept Terms & Conditions</label>
+        </div>
+      
+        <button class="w-full py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600" type="submit">Submit</button>
+      </form>
+      
+      
+  <script src="./index.js"></script>     
+</body>
+</html>
